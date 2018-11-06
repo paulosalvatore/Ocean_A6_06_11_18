@@ -15,4 +15,4 @@ data class Repository(val id: Long?,
 
 data class Owner(val login: String?,
                  val id: Long?,
-                 var avatar_url: String?)
+                 val avatar_url: String?)
